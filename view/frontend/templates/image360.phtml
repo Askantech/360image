@@ -1,0 +1,528 @@
+<style title="cc-theme-styles">
+.cc-theme-wrapper {
+    visibility: visible !important;
+}
+body.threesixty-index-index {
+    visibility: hidden !important;
+}
+#maincontent .columns {
+    display: none !important;
+}
+       .cc-container {
+            margin: 0 auto;
+        }
+        @media only screen and (max-width:1199px) {
+            .cc-container {
+                width: 90%
+            }
+        }
+        @media only screen and (min-width:1200px) {
+            .cc-container {
+                width: 1100px
+            }
+        }
+        @media only screen and (min-width:1400px) {
+            .cc-container {
+                width: 1200px
+            }
+        }
+        @media only screen and (min-width:1600px) {
+            .cc-container {
+                width: 1400px
+            }
+        }
+        @media only screen and (max-width:600px) {
+            .cc-container {
+                width: 97%;
+            }
+        }
+       /* 360view style start */
+        .cc-rotate-img-section {
+            position: relative;
+        }
+        .cc-bg-img {
+            position: absolute;
+            width: 100%;
+        }
+        .cc-bike-ro-wrapper {
+            position: relative;
+            padding-top: 80px;
+            margin-bottom: 65px;
+        }
+        .cc-title-wrapper {
+            position: relative;
+            z-index: 2;
+        }
+        .cc-title-wrapper .cc-title h3 {
+            font-size: 36px;
+            font-family: "Roboto Condensed";
+            text-align: center;
+            color: #fff;
+        }
+        .cc-tab-btn {
+            font-family: "ducati-condensed", Arial, sans-serif;
+            font-weight: 400;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-size: 14px;
+            text-align: center;
+            border: solid 1px #bbbcbc;
+            background-color: transparent;
+            color: #bbbcbc;
+            min-width: 120px;
+            height: 37px;
+            line-height: 35px;
+            padding: 0 1em;
+            border-radius: 100px;
+            display: inline-block;
+            text-decoration: none;
+            -webkit-transition: color .2s, border-color .2s, background-color .2s;
+            transition: color .2s, border-color .2s, background-color .2s;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+        .cc-tab-btn.active {
+            background-color: #fff;
+            color: #000;
+        }
+        .cc-bike-ro-wrapper {
+            font-family: "Roboto Condensed";
+        }
+        .cc-bike-ro-wrapper .cc-tab-switcher {
+            text-align: center;
+            margin-top: 45px;
+        }
+        .cc-bike-ro-wrapper .cc-top-section h2 {
+            font-size: 24px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        .cc-bike-ro-wrapper .cc-top-section .cc-text {
+            font-size: 14px;
+            color: #fff;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+        .cc-bike-ro-wrapper .cc-top-section .cc-price {
+            font-weight: bold;
+            font-size: 20px;
+            color: #fff;
+        }
+        .cc-bike-ro-wrapper .cc-top-section {
+            padding-top: 30px;
+        }
+        .cc-bike-ro-wrapper .cc-bottom-section {
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0px 0px 1px #e1e1e1;
+            margin-top: 28px;
+        }
+        .color-switcher {
+            list-style: none;
+            display: flex;
+        }
+        .color-switcher li {
+            height: 40px;
+            width: 40px;
+            margin-right: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid;
+            cursor: pointer;
+        }
+        .color-switcher li span {
+            height: 30px;
+            width: 30px;
+            display: block;
+        }
+        .color-switcher li:last-child {
+            margin-right: 0px;
+        }
+        .cc-silver-col span {
+            background-color: #e4e4e4 !important;
+        }
+        .cc-black-col span {
+            background-color: #333 !important;
+        }
+        .cc-contact-dealer a {
+            letter-spacing: 1.1px;
+            text-transform: uppercase;
+            text-decoration: none;
+            text-align: center;
+            color: #fafafa;
+            outline: none;
+            border-radius: 2px;
+            font-size: 14px;
+            line-height: 1;
+            display: inline-block;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(red), to(#c00));
+            background-image: linear-gradient(to bottom, red, #c00);
+            padding: 20px 30px;
+            width: 100%;
+        }
+        .cc-rotate-img-section .cc-bg-img img {
+            height: 500px;
+            width: 100%;
+            object-fit: cover;
+        }
+        .cc-360viewer-wrapper {
+            position: relative;
+        }
+        .cc-360viewer-wrapper-row {
+            align-items: center;
+        }
+        @media only screen and (max-width:1023px) {
+            .cc-360viewer {
+                position: unset;
+                transform: unset;
+            }
+            .cc-bike-ro-wrapper .cc-top-section h2,
+            .cc-bike-ro-wrapper .cc-top-section .cc-text,
+            .cc-bike-ro-wrapper .cc-top-section .cc-price {
+                color: #333;
+                text-align: center;
+            }
+            .color-switcher {
+                justify-content: center;
+            }
+            .cc-contact-dealer a {
+                margin: 20px auto 10px auto;
+                display: block;
+            }
+            .cc-rotate-img-section .cc-bg-img img {
+                height: 220px;
+            }
+            .cc-bike-ro-wrapper .cc-container {
+                width: 100%;
+            }
+            .cc-bike-ro-wrapper .cc-top-section .cc-text {
+                padding: 0 10px;
+            }
+        }
+        .module-360 {
+            position: relative;
+            z-index: 5
+        }
+        .module-360 .navigator .label {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -8px;
+            margin: auto;
+            font-family: "Avenir LT", sans-serif;
+            font-size: 24px;
+            line-height: 100%;
+            font-weight: 600;
+            color: #a27b3e;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            padding: 0;
+            border: 0
+        }
+        .module-360 .model-container {
+            position: relative;
+            width: 100%;
+            height: auto;
+            transform: scale(0.9)
+        }
+        .module-360 .model-container .version-container {
+            position: absolute;
+            top: 0;
+            left: 52%;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: all .5s ease-out;
+            cursor: ew-resize;
+            z-index: 5;
+            transform: translateX(-50%) !important;
+
+        }
+        .module-360 .model-container .version-container.active {
+            opacity: 1;
+            transform: translateX(0);
+            z-index: 10
+        }
+        .module-360 .model-container .version-container.prev {
+            transform: translateY(-20vh)
+        }
+        .module-360 .model-container .version-container.next {
+            transform: translateY(20vh)
+        }
+        .module-360 .model-container .version-container .single-image {
+            position: absolute;
+            width: 100%;
+            height: auto;
+            left: 0;
+            right: 0;
+            margin: auto;
+            opacity: 0;
+            z-index: 0
+        }
+        .module-360 .model-container .version-container .single-image.active {
+            opacity: 1;
+            z-index: 10
+        }
+        @media screen and (max-width: 767px) {
+            .module-360 {
+                display: flex;
+                flex-direction: column;
+                margin-top: 0
+            }
+
+            .module-360 .navigator {
+                top: 53vw;
+                padding-bottom: 27%;
+            }
+
+            .module-360 .navigator .label {
+                font-size: 14px
+            }
+
+            .module-360 .model-container {
+                order: 1;
+                width: 130%;
+                margin-left: -15%;
+                padding-bottom: 80%;
+                transform: scale(1)
+            }
+
+        }
+        .threesixty-index-index small.copyright {
+    display: none;
+}
+.threesixty-index-index .page-main {
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 1280px;
+    padding-left: 0;
+    padding-right: 0;
+    width: auto;
+}
+.threesixty-index-index .columns .column.main {
+    padding-bottom: 0;
+}
+img.single-image {
+    height: auto !important;
+    width: auto !important;
+}
+.footer-bottom {
+    display: none;
+}
+@media only screen and (min-width: 768px) {
+body.threesixty-index-index .page-main {
+margin-left: auto;
+margin-right: auto;
+}
+body.threesixty-index-index .module-360 .model-container { padding-bottom: 80%;}
+body.threesixty-index-index .module-360 .model-container .version-container { left: 50%;}
+}
+@media only screen and (min-width: 1600px) {
+body.threesixty-index-index .cc-container { width: 100%;}
+}
+@media (min-width: 992px) {
+body.threesixty-index-index .container.module-360 {
+max-width: 100%;
+width: 970px;
+}
+}
+
+    </style>   
+        <div class="cc-theme-wrapper">
+            <div class="cc-rotate-img-section">
+                <div class="cc-bike-ro-wrapper">
+                    <div class="cc-container">
+                        <div class="cc-fx-row">
+                            <div class="cc-col-12">
+                                <div class="cc-tab-section-wrapper">
+                                    <div class="cc-tab-section">
+                                        <div class="cc-tab-container cc-tabcontent-rotate" id="cc-rotate-sec-1"
+                                            style="display:block;">
+                                            <div class="cc-fx-row cc-360viewer-wrapper-row">
+                                                <div class="cc-col-8 cc-360viewer-wrapper" data-aos="fade-right"
+                                                    data-aos-duration="1200">
+                                                    <div class="cc-360viewer">
+                                                        <div class="cc-360degimg-viewer">
+                                                            <div class="container module-360" adc-section="0">
+                                                                <div class="model-container">
+                                                                    <div class="version-container cc-yellow-black"
+                                                                        adc-value="0">
+                                                                    </div>
+                                                                    <div class="version-container cc-red-black  active"
+                                                                        adc-value="1">
+                                                                        <?php
+                                                                        $sku = filter_input(INPUT_GET, 'sv');
+                                                                        $product1 = filter_input(INPUT_GET, 'iv');
+                                                                        $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+                                                                        $_helper = $this->helper('Magento\Catalog\Helper\Output');
+                                                                        $_product = $objectManager->create('Magento\Catalog\Model\Product')->load($product1);
+                                                                        for ($i = 0; $i <= 35; $i++) {
+                                                                            $j=$i+1;
+                                                                            $productImageAttr = $_product->getCustomAttribute( 'Image_360_position_'.$j );
+                                                                            $productImage = $this->helper('Magento\Catalog\Helper\Image')
+                                                                                ->init($_product, 'Image_360_position_'.$j)
+                                                                                ->setImageFile($productImageAttr->getValue()); ?>
+                                                                            <img class="single-image"
+                                                                            src="<?php echo $productImage->getUrl() ?>"
+                                                                            adc-value=<?php echo $i;?> />
+                                                                        <?php } ?>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script title="cc-theme-script">
+        require(['jquery'], function() {
+            jQuery(document).ready(function () {
+                jQuery('.module-360 .model-container .version-container:eq(0)').addClass('active');
+                jQuery('.module-360 .model-container .version-container').each(function () {
+                    jQuery(this).find('.single-image:eq(3)').addClass('active');
+                });
+                jQuery('.module-360 .model-container .version-container .single-image').on('dragstart', function (event) { event.preventDefault(); });
+                jQuery('.module-360 .colors .color-button:eq(0)').addClass('active');
+                jQuery('.module-360 .colors .color-button').each(function () {
+                    jQuery(this).on('click', function () {
+                        if (!jQuery(this).hasClass('active')) {
+                            nextVersion = jQuery(this).attr('adc-value');
+                            jQuery('.module-360 .colors .color-button').removeClass('active');
+                            jQuery(this).addClass('active');
+                            if (nextVersion > currentVersion) {
+                                jQuery('.module-360 .model-container .version-container:eq(' + currentVersion + ')').removeClass('active').addClass('prev');
+                            } else {
+                                jQuery('.module-360 .model-container .version-container:eq(' + currentVersion + ')').removeClass('active').addClass('next');
+                            }
+
+                            jQuery('.module-360 .model-container .version-container:eq(' + nextVersion + ')').addClass('active');
+
+                            setTimeout(function () {
+                                jQuery('.module-360 .model-container .version-container:eq(' + currentVersion + ')').removeClass('next').removeClass('prev');
+                                currentVersion = nextVersion;
+                            }, 500);
+                    }
+                });
+            });
+                jQuery('.module-360 .model-container .version-container').each(function () {
+                    var current360container = jQuery(this);
+                    var imagesCounter = 0;
+                    var currentImage = 3;
+                    var nextImage;
+                    var totalImages = current360container.find('.single-image').length;
+                    var startingX;
+                    current360container.find('.single-image').each(function () {
+                        jQuery(this).attr('adc-value', imagesCounter);
+                        imagesCounter++;
+                    });
+                    current360container.bind('mousedown touchstart', function (event) {
+                        if (event.pageX) {
+                            startingX = event.pageX;
+                        } else {
+                            startingX = event.originalEvent.touches[0].pageX;
+                        }
+                        jQuery(window).bind('mousemove touchmove', function (e) {
+                            dragOn360 = true;
+
+                            if (e.pageX) {
+                                var x = e.pageX;
+                            } else {
+                                var x = e.originalEvent.touches[0].pageX;
+                            }
+                            move360model(current360container, x);
+                        });
+                        return false;
+                    });
+                    function move360model(container, x) {
+                        if (dragOn360) {
+                            if (x < (startingX - 10)) {
+                                if (currentImage == (totalImages - 1)) {
+                                    nextImage = 0;
+                                } else {
+                                    nextImage = currentImage + 1;
+                                }
+                                container.find('.single-image:eq(' + currentImage + ')').removeClass('active');
+                                container.find('.single-image:eq(' + nextImage + ')').addClass('active');
+                                currentImage = nextImage;
+                                startingX = x;
+                            } else if (x > (startingX + 10)) {
+                                if (currentImage == 0) {
+                                    nextImage = (totalImages - 1);
+                                } else {
+                                    nextImage = currentImage - 1;
+                                }
+                                container.find('.single-image:eq(' + currentImage + ')').removeClass('active');
+                                container.find('.single-image:eq(' + nextImage + ')').addClass('active');
+                                currentImage = nextImage;
+                                startingX = x;
+                            }
+                        }
+                    }
+                    current360container.bind('mouseup touchend', function () {
+                        dragOn360 = false;
+                        jQuery(window).unbind("mousemove touchmove");
+                    });
+                });
+            })
+            window.addEventListener('load', function () {
+                if (jQuery(window).width() >= 1200) {
+                    function Parallax(options) {
+                        options = options || {};
+                        this.nameSpaces = {
+                            wrapper: options.wrapper || '.parallax',
+                            layers: options.layers || '.parallax-layer',
+                            deep: options.deep || 'data-parallax-deep'
+                        };
+                        this.init = function () {
+                            var self = this,
+                                parallaxWrappers = document.querySelectorAll(this.nameSpaces.wrapper);
+                            for (var i = 0; i < parallaxWrappers.length; i++) {
+                                (function (i) {
+                                    parallaxWrappers[i].addEventListener('mousemove', function (e) {
+                                        var x = e.clientX,
+                                            y = e.clientY,
+                                            layers = parallaxWrappers[i].querySelectorAll(self.nameSpaces.layers);
+                                        for (var j = 0; j < layers.length; j++) {
+                                            (function (j) {
+                                                var deep = layers[j].getAttribute(self.nameSpaces.deep),
+                                                    disallow = layers[j].getAttribute('data-parallax-disallow'),
+                                                    itemX = (disallow && disallow === 'x') ? 0 : x / deep,
+                                                    itemY = (disallow && disallow === 'y') ? 0 : y / deep;
+                                                if (disallow && disallow === 'both') return;
+                                                layers[j].style.transform = 'translateX(' + itemX + 'px) translateY(' + itemY + 'px)';
+                                            })(j);
+                                        }
+                                    })
+                                    parallaxWrappers[i].addEventListener('mouseleave', function (e) {
+                                        layers = parallaxWrappers[i].querySelectorAll(self.nameSpaces.layers);
+                                        for (var j = 0; j < layers.length; j++) {
+                                            layers[j].style.transform = 'translate(0,0)';
+                                        }
+                                    })
+                                })(i);
+                            }
+                        };
+                        this.init();
+                        return this;
+                    }
+                    new Parallax();
+                }
+            });
+            jQuery(document).ready(function () {
+                setInterval(function () {
+                    jQuery('.cc-indicate-img').toggleClass('active');
+                }, 1000)
+            })
+});
+        </script>    
